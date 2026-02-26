@@ -1,0 +1,31 @@
+# FastAPI & Server
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+uvloop==0.21.0; sys_platform != "win32"
+httptools==0.6.4
+
+# Pydantic
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# OpenAI
+openai==1.59.7
+
+# Pinecone
+pinecone==5.4.2
+
+# Redis (async)
+redis[hiredis]==5.2.1
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Security & Utils
+python-dotenv==1.0.1
+python-multipart==0.0.20
+rapidfuzz==3.11.0
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1

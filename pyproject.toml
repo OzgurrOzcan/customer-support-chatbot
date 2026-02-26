@@ -1,0 +1,9 @@
+[project]
+name = "gelisim-chatbot-api"
+version = "1.0.0"
+description = "Production-ready FastAPI backend for Gelişim Pazarlama Chatbot"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
